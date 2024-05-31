@@ -53,8 +53,9 @@ Usually, the project is supposed to be hosted on a server and given a domain. Ho
 1. Download this project;
 2. Open the Project in Apache netbeans;
 4. Ensure you have all the needed dependencies;
-5. Ensure you are connecting to your local database;
-6. Build the project. You should have access now.
+5. Start an instance of Apache Tomcat Server;
+6. Ensure you are connecting to your local database;
+7. Build the project. You should have access now.
 <br/>
 
 ## Dependencies
