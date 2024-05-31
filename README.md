@@ -51,8 +51,8 @@ Here are some of the important directories and files you need to know about this
 ## Installation instructions
 Usually, the project is supposed to be hosted on a server and given a domain. However, I don't have a HomeLab or am I able to rent a server or a domain. Instead:
 1. Download this project;
-2. Open the Project in Apache netbeans;
-4. Ensure you have all the needed dependencies;
+2. Open the Project in Apache NetBeans;
+4. Ensure you have all the needed dependencies (from `pom.xml`);
 5. Start an instance of Apache Tomcat Server;
 6. Ensure you are connecting to your local database;
 7. Build the project. You should have access now.
@@ -60,18 +60,24 @@ Usually, the project is supposed to be hosted on a server and given a domain. Ho
 
 ## Dependencies
 This is a list of dependencies that you need if you want to run the project locally. Aside from **an internet connection**, you will need:
-* Visual Studio 2022;
-* Microsoft SQL Server 2022;
-* Microsoft .NET framework 6.X;
-* NuGet packages:
-  * "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.13";
-  * "Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.13";
-  * "Microsoft.AspNetCore.Identity.UI" Version="6.0.13";
-  * "Microsoft.EntityFrameworkCore" Version="7.0.5";
-  * "Microsoft.EntityFrameworkCore.Design" Version="7.0.5";
-  * "Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.5";
-  * "Microsoft.EntityFrameworkCore.Tools" Version="6.0.16";
-  * "Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13".
+* Apache NetBeans;
+* Java 17;
+* Apache Tomcat Server 9.0.71;
+* Java SQL connector?;
+* Maven build system;
+* Packages (from `pom.xml`):
+  * org.springframework.boot:
+    * spring-boot-maven-plugin;
+    * spring-boot-starter-data-jpa;
+    * spring-boot-starter-test;
+    * spring-boot-starter-web;
+    * spring-boot-starter-thymeleaf;
+    * spring-boot-starter-security;
+    * spring-boot-starter-validation.
+  * org.springframework.security:
+    * spring-security-test.
+  * com.mysql:
+    * mysql-connector-j. 
 <br/>
 
 ## System requirements
