@@ -45,7 +45,8 @@ The intended audiences for the project are the teacher in my web programming - j
 
 ## Structutre
 Here are some of the important directories and files you need to know about this project:
-* ``- ;
+* `pom.xml`- config file for dependencies;
+* 
 <br/>
 
 ## Installation instructions
