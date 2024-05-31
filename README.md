@@ -46,7 +46,13 @@ The intended audiences for the project are the teacher in my web programming - j
 ## Structutre
 Here are some of the important directories and files you need to know about this project:
 * `pom.xml`- config file for dependencies;
-* 
+* `src/main/resources`:
+  * `application.properties` - config file for the database and user;
+  * `templates` - folder, containing frontend web page files.
+* `src/main/java/com/project/cybrary`:
+  * `book` - folder, containing the files for the book entity;
+  * `user` - folder, containing the files for the user entity;
+  * `CybraryApplication.java` - the source file to run the application.
 <br/>
 
 ## Installation instructions
